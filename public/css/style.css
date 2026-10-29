@@ -1,0 +1,229 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+body{
+
+background: linear-gradient(135deg,#667eea,#764ba2);
+
+min-height:100vh;
+
+font-family: 'Poppins', sans-serif;
+
+color:white;
+
+margin:0;
+
+padding:0;
+
+}
+
+
+/* =========================
+   GLASSMORPHISM CONTAINER
+========================= */
+
+.glass{
+
+background: rgba(255,255,255,0.15);
+
+backdrop-filter: blur(12px);
+
+border-radius:15px;
+
+box-shadow:0 8px 32px rgba(0,0,0,0.2);
+
+padding:30px;
+
+position:relative;
+
+z-index:1;
+
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.glass-nav{
+
+background: rgba(255,255,255,0.2);
+
+backdrop-filter: blur(15px);
+
+box-shadow:0 4px 20px rgba(0,0,0,0.2);
+
+position:relative;
+
+z-index:1000;
+
+}
+
+
+/* =========================
+   USER BUTTON
+========================= */
+
+.user-btn{
+
+background: rgba(255,255,255,0.2);
+
+color:white;
+
+border:none;
+
+padding:8px 15px;
+
+border-radius:8px;
+
+}
+
+.user-btn:hover{
+
+background: rgba(255,255,255,0.3);
+
+}
+
+
+/* =========================
+   USER DROPDOWN FIX
+========================= */
+
+.user-dropdown{
+
+background:white;
+
+color:black;
+
+border-radius:10px;
+
+box-shadow:0 6px 20px rgba(0,0,0,0.2);
+
+z-index:9999;
+
+position:absolute;
+
+min-width:220px;
+
+}
+
+.user-dropdown .dropdown-item{
+
+color:black;
+
+}
+
+
+/* =========================
+   QUIZ QUESTION CARDS
+========================= */
+
+.question-card{
+
+background: rgba(255,255,255,0.15);
+
+backdrop-filter: blur(10px);
+
+border-radius:12px;
+
+padding:20px;
+
+margin-bottom:20px;
+
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+
+}
+
+
+/* =========================
+   TIMER
+========================= */
+
+.timer-box{
+
+background:#ff4757;
+
+padding:8px 15px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+color:white;
+
+font-size:16px;
+
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn-light{
+
+font-weight:bold;
+
+}
+
+.btn-light:hover{
+
+background:#ffffff;
+
+color:#333;
+
+}
+
+
+/* =========================
+   LEADERBOARD
+========================= */
+
+.leaderboard-card{
+
+background: rgba(255,255,255,0.15);
+
+backdrop-filter: blur(10px);
+
+border-radius:12px;
+
+padding:25px;
+
+box-shadow:0 4px 20px rgba(0,0,0,0.2);
+
+}
+
+
+/* =========================
+   TABLE STYLE
+========================= */
+
+.table{
+
+border-radius:10px;
+
+overflow:hidden;
+
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width:768px){
+
+.glass{
+
+padding:20px;
+
+}
+
+.timer-box{
+
+font-size:14px;
+
+}
+
+}

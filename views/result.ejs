@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Quiz Result</title>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+<style>
+
+body{
+background: linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-card{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+text-align:center;
+width:500px;
+}
+
+.result-card h1{
+color:#28a745;
+font-weight:bold;
+}
+
+.score{
+font-size:40px;
+font-weight:bold;
+color:#ff5722;
+}
+
+img{
+width:150px;
+margin-bottom:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="result-card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png">
+
+<h1>🎉 Congratulations! 🎉</h1>
+
+<p>You have completed the quiz successfully.</p>
+
+<div class="score">
+
+<%=score%> / 30
+
+</div>
+
+<p class="mt-2">Great job! Keep learning and improving 🚀</p>
+
+<a href="/quiz/dashboard" class="btn btn-primary mt-3 me-2">
+🏠 Go Home
+</a>
+
+<a href="/quiz/leaderboard" class="btn btn-warning mt-3">
+🏆 View Leaderboard
+</a>
+
+</div>
+
+</body>
+
+</html>
